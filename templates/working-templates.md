@@ -1,4 +1,4 @@
-# Brandevegen Working Templates (v1.2)
+# Brandevegen Working Templates (v1.3a)
 
 Copy and fill these templates during a 30-day sprint. Never leave bracketed claims unsupported.
 
@@ -123,11 +123,11 @@ Hey [FirstName], is there anyone better at [Company] to reach out to about this?
 - **Story Arc:** Moment -> Tension -> Evidence -> Insight -> Takeaway -> Real Closing Question
 - **Named Save Element:** [Exact framework, checklist, before/after, number set, or rule]
 
-### 6D. Copy, Design Brief & 11-Point Scorecard
+### 6D. Copy, Design Brief & 12-Point Scorecard
 - **Post Copy:** Plain text, personal voice, no hyphens/dashes/bold/bullets, no body links, no hard CTA.
 - **Carousel Slide Budget (if Carousel):** Cover `15-25w` | Slides 2-(N-1) `40-55w` each | Final Slide `20-30w`.
 - **Design & AI Image Prompt Brief:** Active brand kit colors, typography, layout, author tag placement, footer, licensed/illustrated visual only.
-- **11-Point Review Scorecard:** Strategy [ ] | Truth [ ] | Boundaries [ ] | Voice [ ] | Story [ ] | Clarity [ ] | Save [ ] | 0.5s Test [ ] | Word Count [ ] | Format [ ] | Personal Brand First [ ]
+- **12-Point Review Scorecard:** Strategy [ ] | Truth [ ] | Boundaries [ ] | Voice [ ] | Story [ ] | Clarity [ ] | Save [ ] | 0.5s + Plain-Topic [ ] | Word Count [ ] | Format [ ] | Personal Brand First [ ] | POV Swap-Test & Firsthand Detail [ ]
 
 ### 6E. 60-Minute Engineering Plan & 48-Hour Learning Log
 - **Pre-Post DMs (3 relevant people):** 1. [Name] 2. [Name] 3. [Name]
@@ -174,3 +174,78 @@ Hey [FirstName], is there anyone better at [Company] to reach out to about this?
 - [ ] First 20 outreach targets manually verified for accuracy
 - [ ] Interview or discovery-call script ready
 - [ ] Paid ads (only if funded Track B) scored 75+/100 and policy-checked
+
+---
+
+## Template 10: Day-1 Deliverability & 2027 Pre-Flight Checklist (`/deliverability`)
+
+- [ ] Secondary sending domain purchased and DNS active on Day 1
+- [ ] SPF verified (<10 DNS lookups), 2048-bit DKIM active, DMARC aligned
+- [ ] Warmup scheduled (2-4 weeks) with cap set at 20-40 cold emails/inbox/day
+- [ ] Microsoft 365 60-day new-tenant cap checked (if using M365)
+- [ ] Prospect list verified (<2% hard bounce target; spam ceiling <0.3%, safe target <0.1%)
+- [ ] Open tracking disabled (no pixel); provider matching configured where supported
+
+---
+
+## Template 11: LinkedIn 360Brew Profile Coherence & Check 12 Audit (`/coherence`)
+
+| Profile Field | Target Niche Keywords Present? | Aligned with 4 Pillars? | Fix Needed |
+| :--- | :--- | :--- | :--- |
+| **Headline** | [Yes / No] | [Yes / No] | [Specific edit] |
+| **About Section** | [Yes / No] | [Yes / No] | [Specific edit] |
+| **Role Descriptions (Zero Blanks)** | [Yes / No] | [Yes / No] | [Specific edit] |
+| **Pinned Skills** | [Yes / No] | [Yes / No] | [Specific edit] |
+| **Country / Target Market** | [Yes / No] | [Yes / No] | [Specific edit] |
+
+- **Check 12 (AI-Slop POV Gate):** Passes Swap Test? [Yes / No] | 1 Firsthand Detail Named? [Exact detail] | Pre-Post 3 DMs Rotated (3-Post Cooldown)? [Yes / No]
+
+---
+
+## Template 12: 5-Day Warm-Signal Bridge (`/warm`)
+
+| Day | Channel | Action | Output / Rule |
+| :--- | :--- | :--- | :--- |
+| **Day 1** | LinkedIn | Leave 1 substantive comment on target's post or active thread | Multi-sentence insight; zero flattery, zero pitch, zero bots |
+| **Day 3** | Cold Email | Send plain-text Email 1 (74-80w, passes 12-word AI summary test) | Zero links/attachments; `"yes"` CTA + `"nope"` opt-out |
+| **Day 5** | Cold Email | Standalone Follow-Up 2 (same thread, shorter than Email 1) | New proof point or micro-observation |
+| **Day 7** | Cold Email | Optional Standalone Follow-Up 3 (same thread, shorter again) | Alternate angle or second verified proof |
+| **Day 9** | Cold Email | 1-line referral close | `Hey [FirstName], is there anyone better at [Company] to reach out to about this?` |
+
+---
+
+## Template 13: Module 5 - Close & Free-Slice Handoff Kit (`/close`)
+
+### 13A. Free-Slice Handoff Outline (Deliver in 24-48 Hours)
+1. **What already works well:** [1-2 fair observations]
+2. **Top 2-3 specific verified gaps:** [Evidence-backed findings + cost]
+3. **What the deeper fix requires:** [Clear boundary between this free slice and full paid scope / role impact]
+4. **Next step:** "Happy to walk through this in 15 minutes on [Day A] or [Day B]."
+
+### 13B. 15-Minute Discovery / Portfolio Defense Script
+- **Min 0-2 (Frame):** Confirm their context and what made them reply.
+- **Min 2-8 (Diagnose):** Walk through 1 high-impact finding from the Free Slice (or 1 real project trade-off); ask what happens if it stays unsolved for 90 days.
+- **Min 8-12 (Scope / Fit):** Present your scoped solution (Track B) or 30-60-90 day role contribution (Track A).
+- **Min 12-15 (Next Step):** Confirm decision criteria, stakeholders, and exact date for the next step.
+
+### 13C. 1-Page Scope Proposal (Track B)
+| Section | Fill In |
+| :--- | :--- |
+| **Verified Problem** | [Directly tied to Free-Slice findings] |
+| **Exact Deliverables** | [Bulleted, concrete outputs] |
+| **Timeline & Milestones** | [Start date, weekly checkpoints, handover date] |
+| **Investment & Terms** | [Fixed fee or retainer + payment schedule] |
+| **Explicit Exclusions** | [What is out of scope] |
+| **Approval Next Step** | [Reply "approved" to start + kickoff date] |
+
+---
+
+## Template 14 (Optional P2): 45-60s Vertical Video Script (`/video`) & TLA Gate (`/tla`)
+
+- **Vertical Video (`1080x1920`, 45-60s):**
+  - `0-5s` Spoken Keyword Hook: [Must speak primary niche keyword + exact subject out loud]
+  - `5-35s` Teardown Evidence: [1 concrete visual/screen detail]
+  - `35-50s` Named Saveable Rule: [Clear rule viewers can keep]
+  - `50-60s` Real Closing Question: [Experience-based question; zero hard CTA]
+- **LinkedIn Thought Leader Ad Gate (Track B Only):**
+  - Organic 48h Saves in top 25%? [Yes / No] | Profile Views above baseline? [Yes / No] | Exact Decision-Maker Titles Selected? [List]

@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2.0",
+  "schema_version": "1.3a",
   "updated_at": "YYYY-MM-DD",
   "profile": {
     "name": "",
@@ -13,6 +13,8 @@
     ],
     "language_split": "English",
     "visual_preset": "custom",
+    "niche_keywords": [],
+    "profile_coherence_passed": false,
     "content_boundaries": [
       "No fabricated claims, numbers, quotes, or scarcity",
       "No interest-based finance recommendations, alcohol, gambling, or inappropriate imagery"
@@ -22,7 +24,16 @@
     "day": 0,
     "active_gate": 0,
     "gates_passed": [],
-    "next_single_action": "Run /start to complete Gate 0 Research Draft"
+    "next_single_action": "Run /start to complete Gate 0 Research Draft and /deliverability on Day 1"
+  },
+  "deliverability": {
+    "warmup_started_day_1": false,
+    "secondary_domain": "",
+    "spf_dkim_dmarc_verified": false,
+    "daily_cap_per_inbox": 30,
+    "m365_60d_cap_checked": false,
+    "bounce_rate_pct": 0.0,
+    "spam_complaint_pct": 0.0
   },
   "positioning": {
     "priority_audience": "",
@@ -32,6 +43,14 @@
   },
   "evidence_ledger": [],
   "verify_flags": [],
+  "linkedin_2027": {
+    "recent_dm_contacts": [],
+    "micro_creator_pool_count": 0,
+    "ai_slop_notices_count": 0,
+    "thought_leader_ad_candidates": []
+  },
+  "warm_signal_pipeline": [],
+  "module_5_closes": [],
   "metrics": {
     "cold_emails_sent": 0,
     "cold_replies": 0,

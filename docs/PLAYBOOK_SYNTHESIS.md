@@ -1,4 +1,4 @@
-# Brandevegen Playbook Synthesis & Scoring Reference (v1.2 - Universal LLM)
+# Brandevegen Playbook Synthesis & Scoring Reference (v1.3a - Hardened Universal LLM)
 
 Unified operational rules, workflows, and scoring formulas synthesizing all four source playbooks.
 
@@ -74,7 +74,7 @@ Unified operational rules, workflows, and scoring formulas synthesizing all four
 8. **Format** -> Pillar default unless a clear reason overrides it.
 9. **Write** -> Personal brand first ("my read", "what I noticed"), short everyday English, channel-clean rules.
 10. **Design** -> Designer brief + AI image generation prompt using active visual kit.
-11. **Review** -> 11-point scorecard (100% pass required; any failure triggers fix and re-run).
+11. **Review** -> 12-point scorecard (original 11 checks + Check 12 POV Swap Test; 100% pass required).
 12. **Schedule** -> 2x/week slot from monthly 8-post sequence.
 13. **Publish + Learn** -> 60-minute engagement window + 48-hour metrics logged to Idea Bank.
 
@@ -98,7 +98,7 @@ Unified operational rules, workflows, and scoring formulas synthesizing all four
 1. **Stop** (0.5s high-contrast visual hook) -> 2. **Stay** (curiosity gap in first 2 lines) -> 3. **Read** (short sentences, open loops / Zeigarnik payoff) -> 4. **Save** (named saveable framework/checklist/rule) -> 5. **Share** (identity relevance) -> 6. **Comment** (real experience-based closing question) -> 7. **Visit profile** (consistent POV) -> 8. **Follow** (consistent series & days) -> 9. **DM** (earned trust, never begged).
 - *Pillar specifics:* Founder Spotlight (open loop on cover, close on final line); Marketing Breakdown (each slide earns next swipe); Brand Breakdown (label finding on visual, explain why in copy); Cheat Sheet (numbered tool worth keeping).
 
-### 11-Point Pre-Publish Review Checklist (All 11 Must Pass)
+### 12-Point Pre-Publish Review Checklist (All 12 Must Pass)
 1. **Strategy:** Right pillar, 1 objective, 1 audience.
 2. **Truth:** Source log complete, fairness check done, all `VERIFY` flags cleared.
 3. **Content boundaries (Hard Stop):** No interest-based finance recommendations, alcohol, gambling, inappropriate imagery, exaggeration, false news, fake promises, fake stories, or violations of user's declared values.
@@ -110,6 +110,7 @@ Unified operational rules, workflows, and scoring formulas synthesizing all four
 9. **Word count:** Cover 15-25w, content 40-55w, closing 20-30w (for carousels).
 10. **Format:** Correct dimensions, author tag once, active kit colors, footer present.
 11. **Personal brand first:** Personal analysis leads; no company wordmark on personal graphics.
+12. **POV Swap-Test & Firsthand Detail (2027 AI-Slop Defense):** Swapping your name for a peer's breaks the claim, and at least 1 concrete firsthand observation or teardown detail is present.
 
 ### 60-Minute Engineering Window & 48-Hour Learning Loop
 - **Pre-post:** DM 3 relevant people who genuinely care about the topic.
@@ -150,3 +151,16 @@ Unified operational rules, workflows, and scoring formulas synthesizing all four
 | Technical and policy compliance | 5 | Landing page or destination alignment | 5 |
 | Offer clarity | 5 | Platform policy and technical compliance | 5 |
 | **Total** | **100** | **Total** | **100** |
+
+---
+
+## 5. v1.3 2027 Extensions & Module 5: The Close (Additive Reference)
+
+All rules in Sections 1 to 4 above remain unchanged. Apply these v1.3 additions (full detail in `docs/V1_3_2027_UPGRADES.md`):
+
+- **Day-1 Deliverability Ignition (`/deliverability`):** Start secondary domain warmup on Day 1 (2-4 weeks, 20-40 sends/inbox/day), verify SPF (<10 lookups), 2048-bit DKIM, DMARC, M365 60-day cap awareness, verified lists (<2% bounce), spam ceiling (<0.3%, target <0.1%), provider matching, and zero open tracking.
+- **LinkedIn 2027 Controls (`/coherence`):** Pass Profile Coherence Audit before Post #1; apply 0.5-Second + Plain-Topic Hook Test; enforce 3-post DM rotation cooldown and out-of-network commenting (zero pods/bots); add **Check 12 (POV Swap Test + 1 firsthand detail)** to the 11-point scorecard.
+- **AI Inbox Compression Test:** Compress Email 1's first 150 chars into a 12-word summary; rewrite if pain, proof, and free slice disappear.
+- **5-Day Warm-Signal Bridge (`/warm`):** Day 1 substantive LinkedIn comment -> Day 3 Email 1 -> Day 5 & 7 standalone follow-ups -> Day 9 1-line referral email.
+- **Module 5 - The Close & Free-Slice Handoff (`/close`):** Deliver narrow Free Slice within 24-48h (`What works -> Top 2-3 gaps -> Deeper system scope`; no free consulting) -> 15-min Discovery/Portfolio Defense Call -> Honest Objection Matrix -> 1-Page Scope Proposal.
+- **Optional P2 Toggles:** `/video` (45-60s `9:16` teardown, spoken niche keyword in first 5s) and `/tla` (Track B LinkedIn Thought Leader Ads only for proven organic high-save posts).

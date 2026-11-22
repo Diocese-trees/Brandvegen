@@ -1,4 +1,4 @@
-# Don't Sound Like AI - Unified Copy Linter (v1.2)
+# Don't Sound Like AI - Unified Copy Linter (v1.3a)
 
 Run every cold email, follow-up, LinkedIn post, and profile headline against this linter before publishing or sending. Flag every violation, explain why it breaks the rule, and rewrite cleanly.
 
@@ -66,7 +66,7 @@ Never mix Cold Email rules with LinkedIn Post rules:
 
 ---
 
-## 5. LinkedIn 11-Point Pre-Publish Audit
+## 5. LinkedIn 12-Point Pre-Publish Audit
 
 - [ ] Strategy: right pillar, 1 objective, 1 audience
 - [ ] Truth: source log complete, fairness check passed, all `VERIFY` items cleared
@@ -79,3 +79,17 @@ Never mix Cold Email rules with LinkedIn Post rules:
 - [ ] Word count: carousel slides within 15-25w / 40-55w / 20-30w budgets
 - [ ] Format: correct size, author tag once, active kit colors, footer present
 - [ ] Personal brand first: personal analysis leads; no company wordmark on personal graphics
+- [ ] POV Swap-Test & Firsthand Detail (Check 12): swapping your name breaks the claim + 1 real firsthand observation present
+
+---
+
+## 6. v1.3 2027 Audit Additions (AI Inbox + LinkedIn 360Brew / AI-Slop Gate)
+
+### Cold Email Additions
+- [ ] **First sentence under 15 words** (readable in one breath).
+- [ ] **12-Word AI-Summary Compression Test:** First 150 characters clearly contain pain + proof/relevance + free slice so Gmail Gemini / Outlook Copilot cannot flatten the message into generic sales noise.
+
+### LinkedIn Additions
+- [ ] **Plain-Topic Hook Check:** Concrete niche/topic noun stated plainly on cover and in lines 1-2.
+- [ ] **Check 12 - POV Swap-Test & Firsthand Detail:** Swapping your name for a peer's breaks the claim, and at least 1 firsthand observation/teardown detail is present (defends against the "Seems like AI slop" flag).
+- [ ] **Anti-Pod Hygiene:** Pre-post DMs rotated (3-post cooldown), out-of-network comments included, zero comment bots.

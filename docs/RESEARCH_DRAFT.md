@@ -1,6 +1,6 @@
-# Brandevegen Pre-Execution Research Draft & Machiavellian Audit (Gate 0 - v1.2)
+# Brandevegen Pre-Execution Research Draft & Machiavellian Audit (Gate 0 - v1.3a)
 
-**Status:** ACTIVE BASELINE (v1.2 - Universal LLM)
+**Status:** ACTIVE BASELINE (v1.3a - Hardened Universal LLM)
 **Purpose:** Establish the verified evidence base across all four integrated playbooks, document the Machiavellian systems audit performed before adding Playbook #4, resolve cross-playbook contradictions, and lock Gate 0 rules.
 
 ---
@@ -73,6 +73,33 @@ Adding a fourth playbook (`The Advegen Method v2.4 - Content Execution Playbook`
 ## 5. v1.2 Universalization & QoL Upgrades
 
 - **Model-Agnostic Architecture:** Decoupled all workflows from Claude-only or ChatGPT-only instructions via `AGENTS.md` and `adapters/UNIVERSAL_SETUP.md`.
-- **Quick Commands & Action Buttons:** Added `COMMANDS.md` and universal `[1]`–`[4]` next-action strips to cut typing friction on any chat or CLI interface.
+- **Quick Commands & Action Buttons:** Added `COMMANDS.md` and universal `[1]`-`[4]` next-action strips to cut typing friction on any chat or CLI interface.
 - **Portable Memory:** Added `memory/MEMORY_TEMPLATE.md` and `memory/state.json` (`/save`, `/load`) so users can switch chats or LLMs mid-sprint without repeating Gate 0.
 - **Deterministic Offline Linter:** Added `scripts/brandevegen_lint.py` to enforce exact word counts, character limits, and banned-word scans without LLM guesswork.
+
+---
+
+## 6. v1.3 2027 & LinkedIn Gap Analysis Integration
+
+Preserves all v1.0-v1.2 evidence (E-01 through E-15) untouched and integrates 10 verified 2027 operational adaptations:
+
+| Gap # | Area | Structural Adaptation in v1.3 |
+| :--- | :--- | :--- |
+| **G-01** | LinkedIn `360Brew` Profile Relevance | Added mandatory Profile Coherence Audit (`/coherence`) before Post #1 (Headline, About, Roles, Skills, Country vs. niche keywords). |
+| **G-02** | Semantic Topic Indexing | Upgraded 0.5-Second Test to **0.5-Second + Plain-Topic Test** (explicit niche noun on cover + lines 1-2). |
+| **G-03** | Engagement Pod Penalties | Added **Anti-Pod Rotation** (3-post DM cooldown), 100-200 micro-creator rotation, out-of-network commenting, and zero comment bots. |
+| **G-04** | "Seems Like AI Slop" Flag | Added **Check 12 (POV Swap-Test + 1 Firsthand Detail)** to LinkedIn pre-publish review and 48h analytics logging. |
+| **G-05** | Native Vertical Video (Optional) | Added 45-60s `9:16` spoken teardown override (`/video`) with First-5-Second Spoken Keyword Rule. |
+| **G-06** | LinkedIn Thought Leader Ads (Optional) | Added Track B `/tla` toggle in Module 4, strictly gated to top-quartile organic Save winners. |
+| **G-07** | Day-22 Warmup Time Bomb | Moved Domain Warmup & 2027 DNS/Bounce/Spam Ignition (`/deliverability`) to Day 1 (Gate 0/1). |
+| **G-08** | AI Inbox Summarizers (Gemini/Copilot) | Added **12-Word AI-Summary Compression Test** on Email 1's first 150 characters. |
+| **G-09** | Cold-to-Warm & Post-Reply Close | Added **5-Day Warm-Signal Bridge** (`/warm`) and **Module 5: Close & Free-Slice Handoff** (`/close`). |
+| **G-10** | Deterministic Tooling Gaps | Upgraded `scripts/brandevegen_lint.py` with `<15w` opener check, `carousel`, `coherence`, and `ai-summary` subcommands. |
+
+---
+
+## 7. v1.3a Adversarial Stress-Test & Hardening Log
+
+- **Split-Brain Consolidation:** Merged append-only v1.2/v1.3 blocks into one unified 5-module architecture, one 12-point LinkedIn review standard, one Memory Snapshot block, and one clean `v1.3a` `state.json` schema.
+- **Linter Bug Fixes (8 Bypass Patches):** Hardened `scripts/brandevegen_lint.py` to catch bare URLs (`calendly.com`, `www...`), subject emojis, synthetic AI sentence shapes, empty drafts, out-of-range rubric scores, duplicate/placeholder Google RSAs, carousel URLs/bold formatting, and substring false positives in `coherence`.
+- **Automated QA Regression Suite:** Added `scripts/test_brandevegen.py` verifying all 8 linter subcommands, adversarial edge cases, schema integrity, command parity, and zero em/en dash or banned-word leaks in `README.md`.
