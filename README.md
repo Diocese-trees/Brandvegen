@@ -1,10 +1,18 @@
-# Brandevegen
+# Brandevegen (v1.2)
 
-**Personal rebranding agent.**  
+**Universal personal rebranding agent for any LLM.**  
 **Goal:** Get a job or land a client in 30 days.  
 **Rule:** 90% hard work, 10% luck.
 
-Brandevegen helps you clarify what you offer, prove your thinking in public, and start real conversations with hiring managers or clients in 30 days.
+Brandevegen works on **Claude, ChatGPT, Gemini, Cursor, Windsurf, Qoder, and local LLMs**. It helps you clarify what you offer, prove your thinking in public, and start real conversations with hiring managers or clients in 30 days.
+
+## What is new in v1.2
+
+- **Works on any LLM.** Removed single-model lock-in. Includes `AGENTS.md`, `SKILL.md`, and 1-step setup guides in `adapters/UNIVERSAL_SETUP.md`.
+- **Quick slash commands.** Jump straight to any task with `/start`, `/status`, `/gate`, `/email`, `/lint`, `/post`, `/ads`, `/save`, and `/load`.
+- **Quick-pick action buttons.** Every step ends with numbered choices (`[1]`, `[2]`, `[3]`) so you reply with one tap or keystroke on any chat app.
+- **Portable memory.** Export your sprint state with `/save` and resume in a new chat or a different LLM with `/load`.
+- **Offline linter script.** Run `scripts/brandevegen_lint.py` to check word counts, banned words, dashes, and Google ad character limits with exact math.
 
 ## Why this exists
 
@@ -18,8 +26,6 @@ Most job searches and freelance pitches stall for four reasons:
 Brandevegen fixes this with four weekly checkpoints, a fact log, plain-text outreach rules, a LinkedIn proof engine, and ad scorecards.
 
 ## Pick your track
-
-Both tracks follow the same 30-day plan, tuned to your target:
 
 | What changes | Track A: Get a job | Track B: Land a client |
 | :--- | :--- | :--- |
@@ -43,38 +49,68 @@ Do not run every channel at once. Each module has one clear job:
 4. **Module 4: Paid Copy Lab (Optional Accelerator, Track B Only)**  
    Google Search and Meta ad drafts scored out of 100 before spending money. Skip this if you are job hunting or running on zero ad budget.
 
-## How the 30 days work
+## Quick commands
 
-Start with **Step 0 (Research Draft)**. List your real skills, finished work, and gaps before writing a single post or pitch.
+| Command | What it does |
+| :--- | :--- |
+| `/start` | Pick your track (Job or Client), mode (Solo or Team), and build Step 0 Research Draft |
+| `/status` | Show your current Day, Gate, blockers, and next single action |
+| `/gate` | Run the pass/fail check for your active Gate (0 to 4) |
+| `/ledger` | View, add, or clear `VERIFY` flags in your Evidence Ledger |
+| `/position` | Draft and score your Positioning Statement plus a zero-risk free sample offer |
+| `/email` | Write a 74 to 80 word Email 1 + 3 to 4 step follow-up sequence with full audit |
+| `/lint` | Check any cold email, LinkedIn post, bio, or resume bullet against banned words |
+| `/post [topic]` | Build a complete 13-stage LinkedIn post pack (copy, design brief, 11-point review) |
+| `/ads` | Build and score Google Search (30/90 chars) or Meta ads out of 100 |
+| `/save` | Export a compact Memory Snapshot to move across chats or LLMs |
+| `/load` | Paste a Memory Snapshot to resume right where you left off |
+| `/help` | Show all commands and output modes (`/brief` or `/deep`) |
 
-1. **Days 1 to 7: Discover (Gate 1)**  
-   Audit your skills, study your market, and separate facts from guesses.
-2. **Days 8 to 14: Define (Gate 2)**  
-   Pick one target group, lock your positioning, and tie every claim to proof. If you have no client numbers yet, design a small free sample instead.
-3. **Days 15 to 21: Develop (Gate 3)**  
-   Update your LinkedIn, portfolio, resume, or service page. Publish your first 2 proof posts so your profile backs up your outreach.
-4. **Days 22 to 30: Deploy (Gate 4)**  
-   Send plain-text outreach daily, run the 60-minute LinkedIn engagement window twice a week, track replies, and log what works.
+See `COMMANDS.md` for full examples and shortcuts.
 
-Do not move to the next week because the calendar says so. Move when the work for the current gate is done and verified.
+## Quick setup on any LLM
+
+- **Claude / Gemini Skills:** Upload the repo folder or zip as a Skill (uses `SKILL.md`).
+- **ChatGPT Custom GPT or Project:** Paste `SKILL.md` into instructions and upload `docs/`, `references/`, and `templates/` as knowledge files.
+- **Cursor / Windsurf / Qoder / Codex:** Drop the folder into your workspace. `AGENTS.md` is read automatically.
+- **Any other or local LLM:** Copy the single bootstrap prompt from `adapters/UNIVERSAL_SETUP.md`.
+
+## Offline linter script
+
+Test any email or ad copy locally with Python 3 (no extra packages needed):
+
+```bash
+python scripts/brandevegen_lint.py email my_draft.txt
+python scripts/brandevegen_lint.py linkedin my_post.txt
+python scripts/brandevegen_lint.py google-rsa my_ads.json
+```
 
 ## Core rules
 
-- **Facts only.** Never invent numbers, quotes, client results, testimonials, or fake deadlines. Flag anything unverified before publishing.
+- **Facts only.** Never invent numbers, quotes, client results, testimonials, or fake deadlines. Flag anything unverified as `VERIFY`.
 - **Short cold emails.** Keep Email 1 to 74 to 80 words (under 90 max). One problem, one proof point, one easy ask. Plain text only, with no links or attachments until they reply.
 - **Clean follow-ups.** Send 3 to 4 emails total, every other working day, in the same thread. End with one referral line asking who the right contact is.
-- **Save-worthy LinkedIn posts.** Every post needs a clear hook (0.5-second test), a verified source log, one saveable takeaway, no body links, no hard sales pitch, and an 11-point review pass.
-- **No AI buzzwords.** Check every email and post against `references/dont-sound-like-ai.md` before sending.
+- **Save-worthy LinkedIn posts.** Every post needs a 0.5-second visual hook, a source log, one saveable takeaway, no body links, no hard sales pitch, and an 11-point review pass.
+- **No AI buzzwords.** Check every draft against `references/dont-sound-like-ai.md` or `scripts/brandevegen_lint.py`.
 - **Score ads first (Track B).** Rate Google and Meta ad drafts out of 100 before spending money. Rewrite anything under 75.
 
 ## What is in this repo
 
 ```text
 brandevegen/
-├── SKILL.md                                           # Main agent instructions (v1.1)
+├── SKILL.md                                           # Universal agent instructions (v1.2)
+├── AGENTS.md                                          # Cross-tool coding/agent entry point
+├── COMMANDS.md                                        # Slash commands and quick-pick button guide
 ├── README.md                                          # Project guide
+├── adapters/
+│   └── UNIVERSAL_SETUP.md                             # Setup for Claude, ChatGPT, Gemini, Cursor, local LLMs
+├── memory/
+│   ├── MEMORY_TEMPLATE.md                             # Human-readable cross-LLM memory file
+│   └── state.json                                     # Machine-readable sprint state
+├── scripts/
+│   └── brandevegen_lint.py                            # Offline Python linter for copy, word counts, and RSA limits
 ├── docs/
-│   ├── RESEARCH_DRAFT.md                              # Pre-run facts, Machiavellian audit, and gaps
+│   ├── RESEARCH_DRAFT.md                              # Pre-run facts, critical audit, and gaps
 │   └── PLAYBOOK_SYNTHESIS.md                          # 30-day plan, email, LinkedIn, and ad rules
 ├── templates/
 │   └── working-templates.md                           # Fill-in templates for all 4 modules
@@ -86,28 +122,12 @@ brandevegen/
     └── LinkedIn-Content-Execution-Playbook-v2.4.pdf   # LinkedIn content execution playbook
 ```
 
-## Starter prompts
-
-**Land a job (Track A)**
-> "Start a Brandevegen 30-day sprint for Track A. I am a junior full-stack developer targeting product teams. Build my Research Draft first."
-
-**Land a client (Track B)**
-> "Run Brandevegen Track B to position my freelance web design service and reach my first 2 clients in 30 days. Start with the Research Draft."
-
-**Write and check cold emails**
-> "Use Brandevegen to write a 4-email sequence to agency founders offering a free homepage review. Keep Email 1 between 74 and 80 words and check it against the banned-word list."
-
-**Build a LinkedIn proof post pack**
-> "Use Brandevegen's LinkedIn Authority Engine in Solo Mode to turn [Topic] into a full publish-ready post pack: Idea Card, source log, 5 angles, 5 hooks, copy, design brief, 11-point review, and 60-minute plan."
-
-**Write and score paid ads (Track B)**
-> "Use Brandevegen to write a Google Search ad and 3 Meta ad angles for my audit service, then score each draft out of 100."
-
 ## Honest note on results
 
 Thirty days gives you a strict work plan, verified proof assets, public authority posts, and live outreach. It cannot guarantee a job offer or signed client. You control the 90% hard work: research, proof, clear writing, and daily outreach. Hiring timing and client budgets make up the 10% luck.
 
 ## Version
 
-- **v1.1.0** - Added Module 3 (LinkedIn Authority Engine v2.4), resolved cross-playbook contradictions, added Solo vs. Team mode, merged LinkedIn anti-AI rules, and simplified documentation.
+- **v1.2.0** - Made fully LLM-universal (`AGENTS.md`, `adapters/UNIVERSAL_SETUP.md`), added quick slash commands (`COMMANDS.md`), universal quick-pick action buttons, portable cross-LLM memory (`/save`, `/load`, `memory/`), and offline deterministic linter (`scripts/brandevegen_lint.py`).
+- **v1.1.0** - Added Module 3 (LinkedIn Authority Engine v2.4), resolved cross-playbook contradictions, added Solo vs. Team mode, and simplified docs.
 - **v1.0.0** - Initial release with the 30-day plan, cold email rules, ad scorecards, templates, and reference playbooks.

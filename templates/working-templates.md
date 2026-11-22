@@ -1,4 +1,4 @@
-# Brandevegen Working Templates (v1.1)
+# Brandevegen Working Templates (v1.2)
 
 Copy and fill these templates during a 30-day sprint. Never leave bracketed claims unsupported.
 

@@ -4,3 +4,9 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+__pycache__/
+*.pyc
+
+# Personal sprint state (uncomment if you do not want to push personal data)
+# memory/my-state.json
+# memory/MY_MEMORY.md

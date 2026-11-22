@@ -1,4 +1,4 @@
-# Don't Sound Like AI - Unified Copy Linter (v1.1)
+# Don't Sound Like AI - Unified Copy Linter (v1.2)
 
 Run every cold email, follow-up, LinkedIn post, and profile headline against this linter before publishing or sending. Flag every violation, explain why it breaks the rule, and rewrite cleanly.
 

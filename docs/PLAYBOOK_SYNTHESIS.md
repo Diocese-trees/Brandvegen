@@ -1,4 +1,4 @@
-# Brandevegen Playbook Synthesis & Scoring Reference (v1.1)
+# Brandevegen Playbook Synthesis & Scoring Reference (v1.2 - Universal LLM)
 
 Unified operational rules, workflows, and scoring formulas synthesizing all four source playbooks.
 

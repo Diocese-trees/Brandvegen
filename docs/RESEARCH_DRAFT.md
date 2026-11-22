@@ -1,6 +1,6 @@
-# Brandevegen Pre-Execution Research Draft & Machiavellian Audit (Gate 0 - v1.1)
+# Brandevegen Pre-Execution Research Draft & Machiavellian Audit (Gate 0 - v1.2)
 
-**Status:** ACTIVE BASELINE (v1.1)
+**Status:** ACTIVE BASELINE (v1.2 - Universal LLM)
 **Purpose:** Establish the verified evidence base across all four integrated playbooks, document the Machiavellian systems audit performed before adding Playbook #4, resolve cross-playbook contradictions, and lock Gate 0 rules.
 
 ---
@@ -28,7 +28,7 @@ Adding a fourth playbook (`The Advegen Method v2.4 - Content Execution Playbook`
 - **Patch Applied:** Repositioned Module 3 inside the 30-day window as a **Spy-Check Converter**. Cold Email drives the immediate spike; when the recipient checks the sender's LinkedIn (Stage 7 of the 9-stage reader journey), sharp saveable breakdown posts convert skepticism into reply trust. Simultaneously, the 60-minute engagement window (DMing 3 targeted people + 10 strategic comments) turns content into warm outbound.
 
 ### Failure Mode 3: Phantom-Team & Personal-Config Lock-In
-- **Diagnosis:** Playbook #4 hard-codes a 5-person workflow (Claude, ChatGPT, Designer, Intern, Founder), specific visual tokens (`#3B1F6B`, League Spartan, Manrope), PKT schedule (`Tue & Sat 11:00 AM PKT`), Pakistan-specific checks, and a January 2027 hiring deadline. Baking one founder's private setup into a general GitHub agent breaks reusability and stalls solo users who lack an intern or designer.
+- **Diagnosis:** Playbook #4 hard-codes a 5-role workflow (LLM Agent, Image Generator, Designer, Intern, Founder), specific visual tokens (`#3B1F6B`, League Spartan, Manrope), PKT schedule (`Tue & Sat 11:00 AM PKT`), Pakistan-specific checks, and a January 2027 hiring deadline. Baking one founder's private setup into a general GitHub agent breaks reusability and stalls solo users who lack an intern or designer.
 - **Patch Applied:** Separated the **Universal 13-Stage Content Engine** from **Configurable Profile Presets**, and made **Solo Mode** the default (Team Mode optional). Preserved the Advegen visual/schedule kit as an explicitly labeled Reference Preset.
 
 ### Failure Mode 4: Internal & Cross-Playbook Contradictions
@@ -67,3 +67,12 @@ Adding a fourth playbook (`The Advegen Method v2.4 - Content Execution Playbook`
 2. **Profile Preset & Boundaries:** Target timezone, posting days, visual identity kit, and personal/ethical content boundaries must be confirmed with the user.
 3. **Operating Mode:** Confirm Solo Mode (default) vs. Team Mode (intern/designer available).
 4. **External Execution Boundary:** Domain warmup, cold email sequencers, ad billing, trademark clearance, and LinkedIn publishing happen outside the agent and are flagged clearly as manual steps.
+
+---
+
+## 5. v1.2 Universalization & QoL Upgrades
+
+- **Model-Agnostic Architecture:** Decoupled all workflows from Claude-only or ChatGPT-only instructions via `AGENTS.md` and `adapters/UNIVERSAL_SETUP.md`.
+- **Quick Commands & Action Buttons:** Added `COMMANDS.md` and universal `[1]`–`[4]` next-action strips to cut typing friction on any chat or CLI interface.
+- **Portable Memory:** Added `memory/MEMORY_TEMPLATE.md` and `memory/state.json` (`/save`, `/load`) so users can switch chats or LLMs mid-sprint without repeating Gate 0.
+- **Deterministic Offline Linter:** Added `scripts/brandevegen_lint.py` to enforce exact word counts, character limits, and banned-word scans without LLM guesswork.

@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.2.0",
+  "updated_at": "YYYY-MM-DD",
+  "profile": {
+    "name": "",
+    "track": "Track A: Get a Job",
+    "mode": "solo",
+    "output_density": "brief",
+    "timezone": "UTC",
+    "posting_days": [
+      "Tuesday",
+      "Saturday"
+    ],
+    "language_split": "English",
+    "visual_preset": "custom",
+    "content_boundaries": [
+      "No fabricated claims, numbers, quotes, or scarcity",
+      "No interest-based finance recommendations, alcohol, gambling, or inappropriate imagery"
+    ]
+  },
+  "progress": {
+    "day": 0,
+    "active_gate": 0,
+    "gates_passed": [],
+    "next_single_action": "Run /start to complete Gate 0 Research Draft"
+  },
+  "positioning": {
+    "priority_audience": "",
+    "core_pain": "",
+    "statement": "",
+    "free_slice_offer": ""
+  },
+  "evidence_ledger": [],
+  "verify_flags": [],
+  "metrics": {
+    "cold_emails_sent": 0,
+    "cold_replies": 0,
+    "positive_replies": 0,
+    "linkedin_posts_published": 0,
+    "linkedin_saves_total": 0,
+    "profile_views_30d": 0,
+    "dms_or_interviews_booked": 0
+  },
+  "idea_bank": []
+}
