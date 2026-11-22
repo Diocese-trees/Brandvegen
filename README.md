@@ -1,142 +1,113 @@
 # Brandevegen
 
-> **Personal Rebranding Agent**
-> **Promise:** Get a job or land your client in 30 days.
-> **Operating Ethos:** 90% hardwork, 10% luck.
+**Personal rebranding agent.**  
+**Goal:** Get a job or land a client in 30 days.  
+**Rule:** 90% hard work, 10% luck.
 
-Brandevegen is a deterministic, evidence-first personal rebranding and 30-day pipeline agent skill. Built as the next-generation successor to Emplowise, it fuses structured 30-day brand strategy, anti-AI cold outreach engineering, and scored paid acquisition copywriting into a single modular execution system.
+Brandevegen helps you clarify what you offer, prove your thinking in public, and start real conversations with hiring managers or clients in 30 days.
 
----
+## Why this exists
 
-## Why Brandevegen Exists
+Most job searches and freelance pitches stall for four reasons:
 
-Most career tools and personal branding templates fail for three predictable reasons:
+1. **Design before clarity.** People redo their resume or portfolio before explaining what problem they solve.
+2. **Robotic outreach.** Long emails packed with stiff phrases get deleted in three seconds.
+3. **Weak public proof.** When a manager or founder checks your LinkedIn after an email, they find an empty or generic profile.
+4. **Empty claims.** Generic templates push people to invent numbers they cannot back up on a call.
 
-1. **Aesthetics before strategy:** People redesign resumes, logos, or LinkedIn banners before proving what problem they solve or why anyone should pick them.
-2. **AI-slop outreach:** Candidates and freelancers send 200-word pitches stuffed with phrases like "I hope this email finds you well" and "cutting-edge solutions" that get deleted in three seconds.
-3. **Unverified claims:** Generic templates encourage exaggerating metrics, faking urgency, or promising outcomes nobody can defend in an interview or discovery call.
+Brandevegen fixes this with four weekly checkpoints, a fact log, plain-text outreach rules, a LinkedIn proof engine, and ad scorecards.
 
-Brandevegen replaces guesswork with **four sequential quality gates**, an **Evidence Ledger**, a **strict anti-AI linter**, and **100-point copy rubrics**.
+## Pick your track
 
----
+Both tracks follow the same 30-day plan, tuned to your target:
 
-## Dual-Track Execution Model
-
-Brandevegen runs two 30-day sprint tracks built on one shared strategic core:
-
-| Dimension | Track A: Land a Job (30 Days) | Track B: Land a Client (30 Days) |
+| What changes | Track A: Get a job | Track B: Land a client |
 | :--- | :--- | :--- |
-| **Target Buyer** | Hiring managers, founders, technical leads, recruiters | Agency owners, B2B founders, department heads |
-| **Core Offer** | Role-specific capability + verified work proof | Scoped service + zero-risk free "slice" deliverable |
-| **Primary Touchpoints** | LinkedIn profile, portfolio/GitHub, proof-backed resume, direct outreach | Landing page, case-study proof ladder, cold email sequence, optional paid ads |
-| **Primary Conversion Action** | Interview invite or referral to the hiring decision-maker | Low-friction "yes" reply -> free audit/slice -> paid scope |
-| **30-Day Measurement** | Qualified replies, interviews booked, feedback signals | Positive reply rate, audits delivered, discovery calls, proposals sent |
+| **Who you reach** | Hiring managers, founders, team leads, recruiters | Business owners, agency founders, department heads |
+| **What you offer** | Job-ready skills backed by real work | A clear service plus a small free sample |
+| **Primary weapon** | Direct cold email (starts the conversation) | Direct cold email (starts the conversation) |
+| **Trust shield** | LinkedIn proof posts (converts profile checks) | LinkedIn proof posts + optional scored ads |
+| **Next step** | Interview invite or referral to the right manager | Quick "yes" reply, free sample, then paid work |
+| **What you track** | Replies, profile views, interviews booked | Positive replies, saves, DMs, calls, proposals |
 
----
+## How the 4 modules fit together
 
-## Repository Structure
+Do not run every channel at once. Each module has one clear job:
+
+1. **Module 1: 30-Day Brand Sprint (The Spine)**  
+   Four weekly gates (Discover, Define, Develop, Deploy) turn vague skills into clear positioning and verified proof.
+2. **Module 2: Cold Outreach Engine (The Sword)**  
+   Short 74 to 80 word plain-text emails open doors fast. This drives most replies inside the 30-day window.
+3. **Module 3: LinkedIn Authority Engine (The Shield)**  
+   Two proof-backed posts per week (8 per month) turn profile checks into trust using a 13-stage workflow, four fixed pillars, and a 60-minute engagement routine.
+4. **Module 4: Paid Copy Lab (Optional Accelerator, Track B Only)**  
+   Google Search and Meta ad drafts scored out of 100 before spending money. Skip this if you are job hunting or running on zero ad budget.
+
+## How the 30 days work
+
+Start with **Step 0 (Research Draft)**. List your real skills, finished work, and gaps before writing a single post or pitch.
+
+1. **Days 1 to 7: Discover (Gate 1)**  
+   Audit your skills, study your market, and separate facts from guesses.
+2. **Days 8 to 14: Define (Gate 2)**  
+   Pick one target group, lock your positioning, and tie every claim to proof. If you have no client numbers yet, design a small free sample instead.
+3. **Days 15 to 21: Develop (Gate 3)**  
+   Update your LinkedIn, portfolio, resume, or service page. Publish your first 2 proof posts so your profile backs up your outreach.
+4. **Days 22 to 30: Deploy (Gate 4)**  
+   Send plain-text outreach daily, run the 60-minute LinkedIn engagement window twice a week, track replies, and log what works.
+
+Do not move to the next week because the calendar says so. Move when the work for the current gate is done and verified.
+
+## Core rules
+
+- **Facts only.** Never invent numbers, quotes, client results, testimonials, or fake deadlines. Flag anything unverified before publishing.
+- **Short cold emails.** Keep Email 1 to 74 to 80 words (under 90 max). One problem, one proof point, one easy ask. Plain text only, with no links or attachments until they reply.
+- **Clean follow-ups.** Send 3 to 4 emails total, every other working day, in the same thread. End with one referral line asking who the right contact is.
+- **Save-worthy LinkedIn posts.** Every post needs a clear hook (0.5-second test), a verified source log, one saveable takeaway, no body links, no hard sales pitch, and an 11-point review pass.
+- **No AI buzzwords.** Check every email and post against `references/dont-sound-like-ai.md` before sending.
+- **Score ads first (Track B).** Rate Google and Meta ad drafts out of 100 before spending money. Rewrite anything under 75.
+
+## What is in this repo
 
 ```text
 brandevegen/
-├── SKILL.md                                           # Core agent instructions and trigger rules
-├── README.md                                          # GitHub repository overview, architecture, quickstart
+├── SKILL.md                                           # Main agent instructions (v1.1)
+├── README.md                                          # Project guide
 ├── docs/
-│   ├── RESEARCH_DRAFT.md                              # Pre-execution research draft & evidence ledger
-│   └── PLAYBOOK_SYNTHESIS.md                          # 30-day sprint, outreach rules, paid rubrics & SOPs
+│   ├── RESEARCH_DRAFT.md                              # Pre-run facts, Machiavellian audit, and gaps
+│   └── PLAYBOOK_SYNTHESIS.md                          # 30-day plan, email, LinkedIn, and ad rules
 ├── templates/
-│   └── working-templates.md                           # Ready-to-use personal rebranding templates
+│   └── working-templates.md                           # Fill-in templates for all 4 modules
 └── references/
-    ├── dont-sound-like-ai.md                          # Anti-AI word/phrase/shape linter + 8Q audit
-    ├── Advegen-30-Day-Brand-Building-Method.pdf       # Source Playbook 1: 4-Gate 30-Day Method
-    ├── The-Cold-Email-Copy-Playbook.pdf               # Source Playbook 2: Cold Email Copy Rules
-    └── Advegen-Copywriting-Playbook.pdf               # Source Playbook 3: Google & Meta Ad Playbook
+    ├── dont-sound-like-ai.md                          # Shared + channel-specific anti-AI linter
+    ├── Advegen-30-Day-Brand-Building-Method.pdf       # 30-day brand method playbook
+    ├── The-Cold-Email-Copy-Playbook.pdf               # Cold email playbook
+    ├── Advegen-Copywriting-Playbook.pdf               # Google and Meta ads playbook
+    └── LinkedIn-Content-Execution-Playbook-v2.4.pdf   # LinkedIn content execution playbook
 ```
 
----
+## Starter prompts
 
-## System Architecture & 4-Gate State Machine
+**Land a job (Track A)**
+> "Start a Brandevegen 30-day sprint for Track A. I am a junior full-stack developer targeting product teams. Build my Research Draft first."
 
-```text
-[Gate 0: Pre-Execution Research Draft & Evidence Ledger]
-   Condition: Track selected, real skills/proof logged, gaps disclosed.
-                         │
-                         ▼
-       ┌─────────────────────────────────┐
-       │   MODULE 1: 30-DAY BRAND SPRINT │
-       │  Days 1-7   Discover  (Gate 1)  │
-       │  Days 8-14  Define    (Gate 2)  │
-       │  Days 15-21 Develop   (Gate 3)  │
-       │  Days 22-30 Deploy    (Gate 4)  │
-       └───────────────┬─────────────────┘
-                       │
-          ┌────────────┴────────────┐
-          ▼                         ▼
-┌──────────────────────┐  ┌──────────────────────────┐
-│ MODULE 2: COLD ENGINE│  │ MODULE 3: PAID COPY LAB  │
-│ - 74-80w Email 1     │  │ - 7-Step Brief           │
-│ - 3-4 Step Sequence  │  │ - Google RSA (30/90 chr) │
-│ - Anti-AI Linter     │  │ - Meta 5-Angle Testing   │
-│ - 8-Question Audit   │  │ - 100-Pt Scoring Rubrics │
-└──────────────────────┘  └──────────────────────────┘
-```
+**Land a client (Track B)**
+> "Run Brandevegen Track B to position my freelance web design service and reach my first 2 clients in 30 days. Start with the Research Draft."
 
-### Gate Advancement Governance
+**Write and check cold emails**
+> "Use Brandevegen to write a 4-email sequence to agency founders offering a free homepage review. Keep Email 1 between 74 and 80 words and check it against the banned-word list."
 
-- **Gate 1 (Day 7 - Discovery):** Facts separated from assumptions; target opportunity is plausible. Fail action: run targeted research or narrow niche.
-- **Gate 2 (Day 14 - Strategy):** Passes 7 Positioning Criteria; zero credibility or business-fit blockers. Fail action: revise promise or replace missing proof with a zero-risk "free slice" offer.
-- **Gate 3 (Day 21 - Identity):** Passes 7 Creative Criteria; touchpoints express approved positioning. Fail action: revise prototypes or escalate strategic contradiction.
-- **Gate 4 (Day 30 - Launch Readiness):** Assets owned, outreach linted, links/tracking verified, 90-day learning rhythm set. Fail action: hold launch on unresolved critical blockers.
+**Build a LinkedIn proof post pack**
+> "Use Brandevegen's LinkedIn Authority Engine in Solo Mode to turn [Topic] into a full publish-ready post pack: Idea Card, source log, 5 angles, 5 hooks, copy, design brief, 11-point review, and 60-minute plan."
 
----
+**Write and score paid ads (Track B)**
+> "Use Brandevegen to write a Google Search ad and 3 Meta ad angles for my audit service, then score each draft out of 100."
 
-## Core Operating Principles (The 90% Hardwork Rule)
+## Honest note on results
 
-1. **Evidence before certainty:** Every skill, metric, and market claim is tagged by source type and confidence (`High`, `Medium`, `Low`).
-2. **Honest claims only:** Zero fabricated results, fake scarcity, invented case studies, or inflated percentages.
-3. **Decisions over calendar dates:** Never advance past a gate merely because time elapsed. Move when the evidence is documented and approved.
-4. **Ask for less, prove more:** Cold emails stay between 74 and 80 words, contain one pain point, one proof point, and one easy ask, with zero links or attachments in Email 1.
-5. **Score before launch, judge after:** Pre-launch 100-point rubrics verify ad construction (target 75+/100). Post-launch metrics evaluate real-world market response.
+Thirty days gives you a strict work plan, verified proof assets, public authority posts, and live outreach. It cannot guarantee a job offer or signed client. You control the 90% hard work: research, proof, clear writing, and daily outreach. Hiring timing and client budgets make up the 10% luck.
 
----
+## Version
 
-## Workspace Folder Standard (For Users Running a Sprint)
-
-- `00_Admin_and_Scope`
-- `01_Discovery_and_Research`
-- `02_Strategy_and_Positioning`
-- `03_Verbal_Identity`
-- `04_Visual_Identity`
-- `05_Touchpoints_and_Applications`
-- `06_Launch_and_Outreach`
-- `07_Governance_and_Measurement`
-- `08_Final_Handover`
-
-**File Naming Convention:** `NAME_Workstream_Deliverable_v01_YYYY-MM-DD` tagged as `DRAFT`, `FOR_REVIEW`, `APPROVED`, or `SUPERSEDED`.
-
----
-
-## Quickstart Prompts
-
-### Track A: Land a Job in 30 Days
-> "Start a Brandevegen 30-day sprint for Track A. I am a junior full-stack Laravel developer targeting remote product teams. Initiate Gate 0 Research Draft first."
-
-### Track B: Land a Client in 30 Days
-> "Run Brandevegen Track B to reposition me as a conversion-focused brand and web strategist and land my first 2 retainer clients in 30 days. Start with the Research Draft."
-
-### Cold Outreach Drafting & Anti-AI Audit
-> "Use Brandevegen to draft a 4-email cold outreach sequence to SaaS founders offering a free homepage teardown. Keep Email 1 between 74 and 80 words and run the full Anti-AI linter and 8-question audit."
-
-### Paid Acquisition Copy & 100-Point Scoring
-> "Use Brandevegen's Paid Copy Lab to build a Google RSA and 3 Meta ad angles for my freelance UI/UX audit service, then score every draft on the 100-point rubrics."
-
----
-
-## Scope Boundary & Honesty Notice
-
-"Get a job or land your client in 30 days" defines an intense, structured 30-day execution window built on **90% hardwork** (daily discovery, positioning rigor, proof building, disciplined outreach) and **10% luck** (market timing, hiring cycles, inbox visibility). Brandevegen guarantees a launch-ready personal brand blueprint, linted outreach assets, and measurable operating cadence; it does not guarantee hiring outcomes, client contracts, or revenue.
-
----
-
-## Versioning
-
-- **v1.0.0** - Initial Brandevegen release integrating the 30-Day Brand Building Method, The Cold Email Copy Playbook, and the Advertising Copywriting Playbook into a unified GitHub-ready personal rebranding skill.
+- **v1.1.0** - Added Module 3 (LinkedIn Authority Engine v2.4), resolved cross-playbook contradictions, added Solo vs. Team mode, merged LinkedIn anti-AI rules, and simplified documentation.
+- **v1.0.0** - Initial release with the 30-day plan, cold email rules, ad scorecards, templates, and reference playbooks.

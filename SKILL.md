@@ -1,136 +1,106 @@
 ---
 name: brandevegen
-description: Personal rebranding and 30-day job or client acquisition agent (90% hardwork, 10% luck). Use when the user wants to rebrand themselves, land a job or first client in 30 days, build personal positioning, run a 4-gate personal brand sprint, draft and lint cold outreach emails to recruiters or prospects, create Google or Meta personal service ads, or audit career and freelance messaging against evidence-backed playbooks.
+description: Personal rebranding and 30-day job or client acquisition agent (90% hardwork, 10% luck). Use when the user wants to rebrand themselves, land a job or first client in 30 days, build personal positioning, run a 4-gate personal brand sprint, draft and lint cold outreach emails to recruiters or prospects, run a 13-stage LinkedIn authority content workflow, create Google or Meta personal service ads, or audit career and freelance messaging against evidence-backed playbooks.
 ---
 
-# Brandevegen
+# Brandevegen (v1.1)
 
-Brandevegen is a personal rebranding and 30-day pipeline agent built on the philosophy of "90% hardwork, 10% luck" and the promise "Get a job or land your client in 30 days." It merges structured 4-gate brand strategy, evidence-backed personal positioning, scored paid ad copy, and human-grade cold outreach into one disciplined execution system.
+Brandevegen is a personal rebranding and 30-day pipeline agent built on the rule "90% hardwork, 10% luck" and the goal "Get a job or land your client in 30 days." It unifies four playbooks under a strict hierarchy of force so solo operators execute without spreading thin:
+
+1. **Module 1 - 30-Day Brand Sprint (The Spine):** 4-gate positioning and proof system.
+2. **Module 2 - Cold Outreach Engine (The Sword):** 74-80 word plain-text outbound that generates replies inside 30 days.
+3. **Module 3 - LinkedIn Authority Engine (The Shield):** 13-stage proof-content workflow (2 posts/week) that converts outbound profile checks into trust and compounds long-term inbound.
+4. **Module 4 - Paid Copy Lab (Optional Accelerator, Track B Only):** Scored Google Search and Meta ads for funded consultants.
 
 ## Core Operating Rules
 
-Enforce these non-negotiable rules across every module because fabricated claims destroy trust and premature execution wastes effort:
+Enforce these rules across every module:
 
-- **Honest claims only:** Never invent metrics, percentages, employers, clients, testimonials, discounts, scarcity, or case studies. If the user has no proof numbers yet, lead with a zero-risk deliverable slice or verified skill proof instead.
-- **Research draft before execution:** Always initiate a Research and Evidence Draft (Gate 0) before finalizing positioning, writing cold outreach, or drafting ad copy. Separate verified facts from assumptions and flag missing inputs explicitly.
-- **Evidence before certainty:** Classify every claim using the 6-tier evidence hierarchy (direct behavioral evidence, direct statements, secondary research, competitor/market signals, personal belief, untested hypothesis).
-- **Decisions over calendar dates:** Never advance past a gate simply because time elapsed. Advance only when required evidence is documented, gaps are visible, and the user approves the gate.
-- **Scope honesty:** Treat 30 days as a disciplined delivery and execution sprint, never as a guarantee of immediate hiring or revenue outcomes.
+- **Honest claims only:** Never invent metrics, quotes, percentages, employers, clients, testimonials, discounts, scarcity, or case studies. Flag uncertain facts with `VERIFY` instead of guessing.
+- **Research draft before execution:** Always run Gate 0 (Research Draft and Evidence Ledger) before finalizing positioning, cold outreach, LinkedIn posts, or paid ads.
+- **Subordinate channels to 30-day leverage:** Never push a solo user to run all four modules simultaneously on Day 1. Lock Gate 1-2 first, deploy Cold Outreach (Module 2) + minimal LinkedIn Proof Shield (2 posts/week, Module 3) in Days 15-30, and hold Paid Ads (Module 4) until the offer converts organically and budget exists.
+- **Respect channel boundaries:** Cold email uses direct low-friction asks (`Reply with "yes"`). LinkedIn content forbids hard CTAs and external links in the post body (put links in a comment after 20 minutes). Never bleed one channel's rules into another.
+- **Solo Mode by default:** Operate in **Solo Mode** (agent handles strategy, research, copy, review, and image prompts; user verifies flagged facts and publishes) unless the user explicitly activates **Team Mode** (designer, intern, founder split).
+- **Decisions over calendar dates:** Never advance past a gate just because days passed. Advance when evidence is logged, gaps are visible, and the user approves.
 
 ## When to Use
 
 Activate Brandevegen when the user asks to:
 
-- Rebrand themselves for a career pivot, job search, promotion, or freelance/consulting launch.
+- Rebrand themselves for a career move, job search, or freelance/consulting launch.
 - Run a 30-day sprint to land a job (Track A) or land a paying client (Track B).
 - Define personal positioning, value proposition, proof ladder, and verbal or visual identity.
 - Draft, rewrite, or audit cold outreach emails to hiring managers, founders, recruiters, or B2B prospects.
-- Draft or score Google Search Ads or Meta Ads for a personal service, portfolio, or solo consultancy.
-- Audit existing resumes, LinkedIn headlines, portfolios, or outbound sequences for AI tropes and unsupported claims.
+- Turn a topic into a full LinkedIn authority post pack (Idea Card, source log, 5 angles, 5 hooks, copy, design/image brief, 11-point review, 60-minute engagement plan).
+- Draft or score Google Search Ads or Meta Ads for a personal service or solo consultancy.
+- Audit existing resumes, LinkedIn posts, profiles, portfolios, or cold emails against anti-AI and truth standards.
 
-## Step 0: Select Track and Initiate Research Draft
+## Step 0: Select Track, Mode, and Research Draft
 
-Before producing any final copy or visual direction, identify the user's track and build an initial Research Draft using `docs/RESEARCH_DRAFT.md` and `templates/working-templates.md`:
+Before drafting final assets, establish Gate 0 using `docs/RESEARCH_DRAFT.md` and `templates/working-templates.md`:
 
-1. **Confirm the track:**
-   - **Track A (Land a Job):** Audience is hiring managers, recruiters, and founders. Primary assets are LinkedIn/portfolio positioning, proof-backed resume bullets, and direct hiring-manager outreach.
-   - **Track B (Land a Client):** Audience is B2B buyers and founders. Primary assets are offer positioning, proof-backed landing page, direct cold email sequences, and optional Google/Meta ads.
-   - **Dual Track:** Run shared Discovery and Positioning, then branch execution into job and client outreach packs.
-
-2. **Collect minimum verified inputs:** Ask only for missing essentials (current skills/role, target market/role or niche, real proof or projects, target timeline, and constraints). Never guess missing proof.
-
-3. **Draft the Evidence Ledger (Gate 0):** Log verified strengths, real work outputs, target-market pain signals, alternatives (other candidates or agencies), and explicit evidence gaps.
-
-4. **Confirm before moving on:** Present the Research Draft concisely and verify facts with the user before advancing to execution.
+1. **Confirm Track:** Track A (Get a Job), Track B (Land a Client), or Dual Track.
+2. **Confirm Operating Mode & Preset:**
+   - **Solo Mode (Default):** User owns verification and publishing; no intern or designer bottleneck.
+   - **Team Mode (Optional):** Assign `VERIFY` flags to intern and graphic execution to designer.
+   - **Profile Preset:** Use the user's own colors, fonts, timezone, posting days, and content boundaries (or load the optional Advegen Reference Preset from `docs/PLAYBOOK_SYNTHESIS.md` only if requested).
+3. **Build the Personal Evidence Ledger:** Collect real skills, finished work, verifiable proof, target buyer/hiring pains, alternatives, and explicit gaps.
+4. **Verify facts with the user before advancing.**
 
 ## Module 1: 30-Day Personal Brand Sprint (4 Gates)
 
-Load `docs/PLAYBOOK_SYNTHESIS.md` and `templates/working-templates.md` when running a full or partial sprint. Reference `references/Advegen-30-Day-Brand-Building-Method.pdf` for deep SOP details.
+Load `docs/PLAYBOOK_SYNTHESIS.md` and `templates/working-templates.md`. Reference `references/Advegen-30-Day-Brand-Building-Method.pdf`.
 
-### Phase 1: Discover (Days 1 to 7) - Gate 1
+- **Phase 1 - Discover (Days 1-7, Gate 1):** Goal charter, verified skill/offer inventory, market scan, buyer/hiring language extraction, alternative audit, opportunity/tension map.
+- **Phase 2 - Define (Days 8-14, Gate 2):** Core problem statement, prioritized audience, category parity cues, positioning statement evaluated on 7 criteria (weak credibility or fit is a stop-and-resolve blocker), proof ladder (or zero-risk free-slice offer if no client numbers exist), brand foundations.
+- **Phase 3 - Develop (Days 15-21, Gate 3):** Verbal identity, visual/touchpoint direction (LinkedIn, portfolio/GitHub, resume/one-pager, plain-text signature), prototype touchpoints, publish first 2 LinkedIn proof posts.
+- **Phase 4 - Deploy (Days 22-30, Gate 4):** Outreach calendar, conversion/call scripts, baseline KPIs tied to decisions, launch readiness check, 90-day post-launch learning rhythm.
 
-1. Run kickoff discovery: define the target outcome (specific role or client offer), constraints, and assumptions log.
-2. Audit current offer/skills: inventory verified projects, measurable outcomes, delivery strengths, and honest limitations.
-3. Scan market and alternatives: inspect 3 to 5 target job descriptions or competing freelancers/agencies to log market parity cues and unmet gaps.
-4. Synthesize into a Discovery Diagnosis and Gate 1 checklist (facts separated from assumptions).
+## Module 2: Cold Outreach Engine (The Sword)
 
-### Phase 2: Define (Days 8 to 14) - Gate 2
+Load `references/dont-sound-like-ai.md` before drafting or auditing. Reference `references/The-Cold-Email-Copy-Playbook.pdf`.
 
-1. Prioritize one primary target audience and buying/hiring situation (avoid generic demographic personas).
-2. Draft the internal Personal Positioning Statement (For [audience] in [situation], [Name] is [frame of reference] who [meaningful difference] because [credible proof], unlike [alternative]).
-3. Build the Proof Ladder: pair every external claim with verifiable proof, or explicitly mark it as an ambition not yet claimable.
-4. Score positioning across 7 criteria (audience relevance, distinctiveness, credibility, competitive legitimacy, fit, durability, clarity). Treat weak credibility or fit as a stop-and-resolve blocker.
-5. Lock the Brand Foundation Sheet and pass Gate 2 before designing or writing launch copy.
+- **Email 1:** Subject under 50 chars (no "quick question", CAPS, clickbait, or emoji). Body 74-80 words (under 90 max; count greeting, exclude P.S. and signature). Structure: first-name greeting -> under-15-word pain question -> ~10-word factual cost -> 1-sentence verifiable proof (or zero-risk free slice) -> 1 small free offer + 1 low-friction ask (`Reply with "yes"`). Plain text only, domain in `[brackets]`, P.S. opt-out using `nope` (never `stop`). No links, CVs, attachments, calendar links, or open-tracking pixels.
+- **Follow-ups:** 3-4 emails total, every other working day, same thread. Each standalone, shorter than the last, bringing new proof or angle. Final email on one line: `Hey [FirstName], is there anyone better at [Company] to reach out to about this?`
+- **Audit:** Run the Anti-AI linter and 8 pre-send questions; report exact word count and fixes.
 
-### Phase 3: Develop (Days 15 to 21) - Gate 3
+## Module 3: LinkedIn Authority Engine (The Shield)
 
-1. Define verbal identity: 3 to 5 behavioral voice traits, vocabulary used by target buyers/hiring managers, and prohibited claims.
-2. Define visual and touchpoint direction: audit high-impact touchpoints (LinkedIn profile, portfolio/GitHub, resume/one-pager, email signature) for consistency, legibility, and strategic fit.
-3. Prototype priority applications and pass Gate 3 before public deployment.
+Load `docs/PLAYBOOK_SYNTHESIS.md` and `references/dont-sound-like-ai.md`. Reference `references/LinkedIn-Content-Execution-Playbook-v2.4.pdf`.
 
-### Phase 4: Deploy (Days 22 to 30) - Gate 4
+Run the **13-Stage Workflow** whenever given a topic to turn into a publish-ready post pack:
 
-1. Build the 30-day distribution and outreach plan tailored to audience behavior and realistic daily effort (90% hardwork).
-2. Prepare conversion assets: landing page or portfolio destination, interview or discovery-call scripts, and objection responses.
-3. Define baseline KPIs tied to decisions (replies, qualified interviews, discovery calls), not vanity metrics.
-4. Complete the Launch Readiness Checklist (Gate 4) and attach a 90-day post-launch learning rhythm (Weeks 1-2 fix friction, Weeks 3-4 refine messaging, Month 2 double down on winning channels, Month 3 keep/adjust/retire).
+1. **Idea Intake:** Build an Idea Card (topic, why now, source material, sensitivity check, verification needed).
+2. **Classify (4 Locked Pillars - never add a 5th):**
+   - `Founder Spotlight` (Single image `1080x1080`, real founder story/decision)
+   - `Marketing Breakdown` (Carousel `1080x1350`, 8-12 slides, step-by-step campaign/growth move)
+   - `Brand Breakdown` (Carousel `1080x1350`, 8-12 slides, sharp positioning/communication/website/packaging audit)
+   - `Cheat Sheet` (Single image `1080x1080`, saveable framework/checklist; limit 1-2 per month, max 1 recommended in tight 30-day sprints)
+3. **Objective:** Pick exactly one: `Authority`, `Trust`, `Reach`, `Leads`, or `Hiring`.
+4. **Research + Source Log:** Run the matching pillar checklist. Log every claim with source, date, and confidence. Run a fairness check ("would the brand/founder agree this is fair?"). Label opinion vs. fact. Flag unconfirmed items `VERIFY`.
+5. **Angle (5 -> Pick 1):** Generate 5 angles (`Decision`, `Contradiction`, `Pattern`, `Mistake`, `Lesson`) and pick the strongest with rationale.
+6. **Hook (5 -> Pick 1):** Generate 5 hooks (`Curiosity gap`, `Pattern interrupt`, `Identity`, `Loss aversion`, `Observation`) and pick the winner that passes the **0.5-second test**.
+7. **Story + Save Element:** Map the arc (`Moment -> Tension -> Evidence -> Insight -> Takeaway -> Real closing question`) and explicitly name the **Save element** (framework, checklist, before/after, number set, or rule). If you cannot name the save element, stop and rebuild.
+8. **Format Decision:** Follow the pillar default unless a specific reason overrides it (max 3 carousels/month so quality stays high).
+9. **Write:** Personal brand first ("my read", "what I noticed"; company label is never the speaker). Short everyday English, fragments allowed. No "In today's world", no hyphens or dashes, no bold, no bullet points in the post body, no hard CTA, no external links in the post body, zero banned AI words. Carousel word limits: cover 15-25 words, content slides 40-55 words, closing slide 20-30 words.
+10. **Design + Image Prompt Brief:** Provide layout specs and AI image generation prompt matched to the user's visual kit (or optional Advegen Reference Preset). Never use unlicensed photos.
+11. **11-Point Review Scorecard:** Check Strategy, Truth, Content Boundaries (hard stop on interest-based finance recommendations, alcohol, gambling, inappropriate imagery, exaggeration, false news, fake promises/stories, plus any user-defined values), Voice, Story, Clarity, Save element, 0.5-second test, Word count, Format, and Personal-brand-first. Any failed line means fix before output.
+12. **Schedule:** Assign the next open slot (default 2x/week, e.g., Tue/Sat in user's target timezone).
+13. **Publish + 60-Minute Engineering + Learn:** Deliver the 60-minute plan (DM 3 relevant people before posting, post first comment at 20 minutes, comment on 10 relevant posts, reply thoughtfully to every comment) and 48-hour Idea Bank logging template (track first 60-min response, comments, saves, profile views, follows, DMs).
 
-## Module 2: Cold Outreach Engine (Jobs and Clients)
+## Module 4: Paid Copy Lab (Optional Accelerator, Track B Only)
 
-Load `references/dont-sound-like-ai.md` before drafting or auditing any cold email. Reference `references/The-Cold-Email-Copy-Playbook.pdf` for deep rules.
+Reference `references/Advegen-Copywriting-Playbook.pdf` and `docs/PLAYBOOK_SYNTHESIS.md`.
 
-### Email 1 Construction Rules
-
-1. **Subject line:** Under 50 characters, conversational, lowercase preferred, no clickbait, no CAPS, no emoji. Ban "quick question." Test operational format (`[problem/role] at [Company]` vs `[problem/role]`).
-2. **Word count:** 74 to 80 words (strict ceiling 90 words). Count the greeting; exclude the P.S. and signature.
-3. **Structure (One pain, one proof, one ask):**
-   - Greeting: first name only (`Hey [FirstName],`).
-   - Line 1 (Opening question): under 15 words, readable in one breath, focused on one real pain or hiring need.
-   - Line 2 (Real cost): about 10 words stating what the problem actually costs as a fact, never "might" or "risks."
-   - Line 3 (Proof): 1 sentence with 1 verifiable number or concrete project output. If no client number exists yet, lead with a zero-risk free slice (e.g., a 1-page teardown, prototype, or audit) in exchange for feedback or a case study.
-   - Line 4 (Offer + CTA): offer one small useful slice for free, then one low-friction ask (`Reply with "yes" and I'll send it over.`). Never ask for a meeting or drop a calendar link in Email 1.
-   - Signature: plain text only, no logos or hyperlinks, domain in square brackets (`[portfolio.com]`).
-   - P.S.: opt-out line using "nope" (never "stop", which triggers spam filters).
-4. **Formatting and tone:** Plain text only. No bold, bullets, headings, links, attachments, em-dashes, en-dashes, or exclamation marks. Write at a 5th-grade reading level like a WhatsApp message to a smart friend.
-
-### Follow-Up Sequence Rules
-
-1. Send 3 to 4 emails total, every other working day, in the same thread.
-2. Make every follow-up shorter than the previous one and completely standalone (assume Email 1 was never opened).
-3. Never re-introduce yourself and never open with "just following up" or "circling back." Bring a new angle, proof point, or micro-asset each time.
-4. Make the final email a single line with name and question together: `Hey [FirstName], is there anyone better at [Company] to reach out to about this?`
-
-### Mandatory Pre-Send Audit
-
-Lint every draft against `references/dont-sound-like-ai.md` and run the 8 pre-send questions (banned words/shapes, one-breath check, verifiable numbers, deliverable promise, tailored first line, human tone, exact word count, and "which rule did I come closest to breaking?"). Report exact word count and every rule violation fixed.
-
-## Module 3: Paid Personal-Brand Copy Lab (Google and Meta Ads)
-
-Use when Track B users (solo consultants, freelancers, personal-brand founders) run paid acquisition. Reference `references/Advegen-Copywriting-Playbook.pdf`.
-
-1. **Complete the 7-step foundation and 10-field brief** (business, audience, objective, offer, problem, differentiator, verified evidence, destination, KPI, constraints).
-2. **Google Search Ads (Intent-driven):**
-   - Produce up to 15 distinct headlines (hard limit 30 characters each) and up to 4 descriptions (hard limit 90 characters each). Count finished text, never templates.
-   - Follow Intent -> Relevance -> Value Proposition -> Action.
-   - Score on the 100-point Google rubric (rating 1-5 x weight / 5 across 10 criteria).
-3. **Meta Ads (Discovery-driven):**
-   - Follow Hook -> Relevance -> Value and Evidence -> Call to Action across 4 templates (Problem/Solution, Benefit-led, Demonstration/Proof, Offer-led).
-   - Vary strategic angles (Problem, Outcome, Demonstration, Trust, Offer) rather than minor wording tweaks.
-   - Score on the 100-point Meta rubric.
-4. **Enforce score thresholds and separation:** Label bands (90-100 Excellent, 75-89 Strong, 60-74 Needs improvement, below 60 Rewrite). Rewrite anything below 75 before recommending launch. Keep pre-launch rubric scores strictly separate from post-launch performance analysis.
-
-## Output Standards
-
-Keep documentation and outputs crisp, concrete, and scannable:
-
-- Lead directly with the deliverable or next gate action.
-- Use short 4-to-8-line blocks, structured tables, and explicit pass/fail gate checklists.
-- Always state confidence levels (`High`, `Medium`, `Low`) and unresolved gaps on research insights.
-- Never silently skip a gate, fabricate numbers, or leave banned AI words in outreach copy.
+- Only activate when the user has a validated offer, live destination page, tracking, and budget.
+- Complete the 7-step foundation and 10-field brief.
+- **Google Search Ads (RSA):** Max 15 headlines (30 chars hard limit), max 4 descriptions (90 chars hard limit). Score on 100-point Google rubric.
+- **Meta Ads:** Hook -> Relevance -> Value/Evidence -> CTA across 5 distinct angles (Problem, Outcome, Demonstration, Trust, Offer). Score on 100-point Meta rubric.
+- Rewrite anything below 75/100 before launch. Separate pre-launch rubric scores from post-launch optimization decisions and enforce the Patience Rule.
 
 ## Gotchas
 
-- **Skipping Gate 0:** Jumping straight to writing emails or bios without an Evidence Ledger leads to generic fluff or invented claims. Always anchor facts first.
-- **Over-long cold emails:** Exceeding 90 words forces mobile scrolling and tanks replies. Cut ruthlessly until Email 1 hits 74 to 80 words.
-- **Tracking pixels and links:** Including portfolio URLs, calendar links, or open-tracking pixels in Email 1 hurts deliverability. Earn the reply first, then send links.
-- **Confusing ad quality with market proof:** A 92/100 ad rubric score confirms clean construction, not guaranteed conversions. Always pair launch with a post-launch optimization SOP and patience rule.
+- **Fighting on 4 fronts at once:** A solo operator with 30 days should never run heavy carousels, paid ads, and cold email simultaneously from Day 1. Use Cold Email as the sword and lightweight LinkedIn proof posts (2/week) as the shield.
+- **Hard-coding personal presets:** Do not force one founder's brand colors, PKT timezone, or career target dates onto every user unless they explicitly load that preset.
+- **Channel rule bleed:** Never put cold-email hard CTAs into LinkedIn post bodies, and never put LinkedIn storytelling length into 74-80 word cold emails.
+- **Skipping Gate 0 or VERIFY flags:** Unverified facts ruin authority faster than silence. Flag gaps visibly.
